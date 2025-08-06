@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerWao</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Burger<span>Wao</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Las hamburguesas más deliciosas de la ciudad</h2>
+                <p>Ingredientes frescos y preparación artesanal</p>
+                <a href="#menu" class="btn">Ver menú</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">Nuestro Menú</h2>
+            <div class="menu-grid" id="productos-container">
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Hamburguesa Clásica">
+                    <h3>Hamburguesa Clásica</h3>
+                    <p>Carne de res, queso cheddar, lechuga, tomate y salsa especial.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Hamburguesa Especial">
+                    <h3>Hamburguesa Especial</h3>
+                    <p>Carne premium, doble queso, cebolla caramelizada y tocino.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Hamburguesa de Pollo">
+                    <h3>Hamburguesa de Pollo</h3>
+                    <p>Pechuga de pollo empanizada, lechuga, tomate y mayonesa.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Hamburguesa Vegetariana">
+                    <h3>Hamburguesa Vegetariana</h3>
+                    <p>Hamburguesa de garbanzos, espinaca, tomate y salsa vegana.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1561758033-48d52648ae8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Hamburguesa BBQ">
+                    <h3>Coca Cola</h3>
+                    <p>Con azucar.</p>
+                </div>
+                <div class="menu-item double">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Hamburguesa Doble">
+                    <h3>Hamburguesa Doble</h3>
+                    <p>Doble carne, doble queso, pepinillos y salsa especial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="nosotros">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Sobre Nosotros</h2>
+                <p>En BurgerWao nos apasiona crear las mejores hamburguesas utilizando ingredientes frescos y de la más alta calidad. Nuestro compromiso es ofrecer una experiencia gastronómica única que deleite a nuestros clientes.</p>
+                <p>Fundada en 2020, hemos crecido gracias a la preferencia de nuestros clientes que valoran el sabor auténtico y el servicio excepcional.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1571805618149-3a772570ebcd?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Equipo BurgerWao">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Información de contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle 80 #123-45, Medellin, Colombia.</p>
+                    <p><i class="fas fa-phone"></i> +57 334 567 890</p>
+                    <p><i class="fas fa-envelope"></i> burgerwao@gmail.com</p>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Ingrese su nombre" required>
+                        <input type="email" placeholder="Ingrese un Correo Electronico" required>
+                        <textarea placeholder="Mensaje" required></textarea>
+                        <button class="btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Burgerwao</h3>
+                    <p>Las mejores hamburguesas artesanales con ingredientes frescos y de calidad.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horario</h3>
+                    <p>Lunes a Viernes: 11am - 10pm</p>
+                    <p>Sábado y Domingo: 12pm - 11pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#menu">Menú</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BurgerWao. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
